@@ -161,11 +161,11 @@ p {
 }
 
 .text-box p {
-  font-size: 20px;
-  text-align: center;
+  font-size: 17px;
+  text-align: justify-all;
   padding-right: 0;
   font-family: Lucida Bright;
-
+  
 }
   
 /* Footer */
