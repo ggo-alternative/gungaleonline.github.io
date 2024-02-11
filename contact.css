@@ -6,28 +6,26 @@
 }
 
 body {
-  background-image: url('contactbg.png');
+background-image: url('contactbg.png');
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 130vh;
+  min-height: 130%;
+  margin: 0;
   position: relative;
   display: flex;
   flex-direction: column;
   box-sizing: inherit;
-  padding-bottom: 0;
 }
 
 
 .contact {
   position: relative;
-  min-height: 100vh;
+  min-height: 130vh;
   padding: 50px 100px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   background: rgba(0, 0, 0, 0.60);
-
 }
 
 .contact .content {
@@ -175,9 +173,10 @@ body {
 /* Footer */
 footer {
   background-color: #111;
-  bottom: 0;
   width: 100%;
-  margin-top: auto;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
 }
 
 .footerContainer {
