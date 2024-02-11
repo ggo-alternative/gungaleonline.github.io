@@ -1,7 +1,3 @@
-html {
-  height:100%;
-  box-sizing: border-box;
-}
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 130vh;
   background: #EFB9CB; 
   box-sizing: inherit;
   margin: 0;
@@ -177,7 +173,8 @@ footer {
   background-color: #111;
   bottom: 0;
   width: 100%;
-  margin-top: 5%;
+  position: relative;
+  margin-top: auto;
 }
 
 .footerContainer {
